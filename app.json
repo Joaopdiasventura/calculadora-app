@@ -4,12 +4,11 @@
     "slug": "calculadora",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icone.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +18,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jpplay2_1.calculadora"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icone.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8b61263-05ce-4e7b-920f-a805eb6567c9"
+      }
     }
   }
 }
